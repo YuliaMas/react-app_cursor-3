@@ -1,0 +1,121 @@
+body {
+	background-color: #303030;
+	font-size: 12px;
+	font-family: "fontsource-roboto", Roboto, sans-serif;
+	}
+.welcome {
+max-width: 300px;
+	margin: 50px auto;
+	color: white;
+	}
+p {
+	font-size: 1.5em;
+	margin-top: 10px;
+	color: white;
+	}
+.sign-wrapper {
+	display: flex;
+	flex-direction: column;
+	background: black;
+	max-width: 300px;
+	/*min-height: 450px;*/
+	margin: 10% auto;
+	color: grey;
+	padding: 3% ;
+	}
+.sign-img {
+	border-radius: 50%;
+	/*background: radial-gradient(#f30367, transparent);*/
+	background-color: #f30367;
+	border: 2px solid black;
+	max-width: 50px;
+	height: 50px;
+	margin: auto;
+	}
+img {
+	width: 25px;
+	height: 25px;
+	margin: 10px;
+	}
+form {
+	display: flex;
+	flex-direction: column;
+	/*max-width: 300px;*/
+	margin: 0 auto;
+	justify-items: center;
+	}
+input, button {
+	margin: 10px 0;
+	padding: 13px 10px;
+	border-radius: 3px;
+	border: 1px solid hsla(0, 0%, 46.7%, 0.7);
+	background-color: inherit;
+	color: #fff;
+	outline: none;
+	box-sizing: border-box;
+	width: 100%;
+	cursor: pointer;
+	}
+label {
+	display: flex;
+	align-self: flex-start;
+	align-items: center;
+	cursor: pointer;
+	}
+label input {
+	width: 10%;
+	}
+span {
+	margin-left: 10px;
+	text-align: left;
+	width: 185px;
+	font-size: 1.2em;
+	}
+button {
+	margin-top: 20px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer;
+	background-color: #90caf9;
+	border: none;
+	font-size: 1em;
+	letter-spacing: 1px;
+	outline: none;
+	padding: 10px;
+	}
+button:hover {
+	background: #68cddb;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #00b5fd,  #F2F2F2, #6b9eee);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #00b5fd,  #F2F2F2,  #6b9eee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+button:active {
+	background: linear-gradient(to bottom, #00b5fd,  #6b9eee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: black;
+	}
+.sign-link {
+	display: flex;
+	justify-content: space-between;
+	}
+.sign-linkUp {
+	text-align: right;
+	}
+.subscribe-text {
+	width: 100%;
+	}
+a{
+	color: #90caf9;
+	cursor: pointer;
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: underline;
+	}
+a:active {
+	color: white;
+	}
+.copyright {
+	margin-top: 40px;
+	}
+
+
