@@ -72,7 +72,7 @@ export default class Register extends Component {
 						<div className={"sign-img"}>
 							<img src={padlock} alt="padlock_img" />
 						</div>
-						<p>Sign in</p>
+						<p>Sign Up</p>
 					</div>
 					<div className={"sign-form"}>
 						<form onSubmit={this.handleFormSubmit}>
@@ -116,7 +116,7 @@ export default class Register extends Component {
               		I want to receive inspiration, marketing promotions and updates via email
             		</span>
 							</label>
-							<button onClick={this.addNewRegister} type="submit">Sign In</button>
+							<button onClick={this.addNewRegister} type="submit">Sign Up</button>
 						</form>
 						<div className={'sign-linkUp'}>
 							<Link to="/login">Already have an account? Sign In</Link>
